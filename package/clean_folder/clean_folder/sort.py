@@ -125,15 +125,5 @@ def func_path():
 if __name__ == "__main__":
     func_path()
 
-    print(f"""Текстові файли: \n\n{text_file}")
-    \n\nФайли архівів: \n\n{archives_file}
-    \n\nАудіо файли: \n\n{audio_file}
-    \n\nВідео файли: \n\n{video_file}
-    \n\nФайли зображень: \n\n{photo_file}
-    \n\nНевідомі файли: \n\n{others_file}
-    \n\nУсі відомі розширення: \n\n{set_suffix_known}
-    \n\nУсі невідомі розширення: \n\n{set_suffix_unknown}
-    \n\nУсі папки: \n\n{folders}""")
-
 
 # TODO: запускаємо:  python3 sort.py `назва_папки_для_сортування`
